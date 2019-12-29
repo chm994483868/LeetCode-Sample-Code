@@ -10,6 +10,8 @@
 		8E54408423B643E90067F688 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E54408223B643E90067F688 /* TwoSum.cpp */; };
 		8E54408723B6F2460067F688 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E54408623B6F2460067F688 /* AddTwoNumbers.swift */; };
 		8E54408A23B749850067F688 /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E54408823B749850067F688 /* AddTwoNumbers.cpp */; };
+		8E54408D23B8F58C0067F688 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E54408C23B8F58C0067F688 /* LengthOfLongestSubstring.swift */; };
+		8E54409023B8FFE80067F688 /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E54408E23B8FFE80067F688 /* LengthOfLongestSubstring.cpp */; };
 		D2CAF81F23B458EE00BFC04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF81E23B458EE00BFC04B /* AppDelegate.swift */; };
 		D2CAF82123B458EE00BFC04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF82023B458EE00BFC04B /* SceneDelegate.swift */; };
 		D2CAF82323B458EE00BFC04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF82223B458EE00BFC04B /* ViewController.swift */; };
@@ -26,6 +28,9 @@
 		8E54408623B6F2460067F688 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		8E54408823B749850067F688 /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		8E54408923B749850067F688 /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		8E54408C23B8F58C0067F688 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		8E54408E23B8FFE80067F688 /* LengthOfLongestSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstring.cpp; sourceTree = "<group>"; };
+		8E54408F23B8FFE80067F688 /* LengthOfLongestSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLongestSubstring.hpp; sourceTree = "<group>"; };
 		D2CAF81B23B458EE00BFC04B /* LeetCodeSampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CAF81E23B458EE00BFC04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CAF82023B458EE00BFC04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +63,16 @@
 			path = "2.两数相加";
 			sourceTree = "<group>";
 		};
+		8E54408B23B8F5530067F688 /* 3.无重复字符的最长子串 */ = {
+			isa = PBXGroup;
+			children = (
+				8E54408C23B8F58C0067F688 /* LengthOfLongestSubstring.swift */,
+				8E54408E23B8FFE80067F688 /* LengthOfLongestSubstring.cpp */,
+				8E54408F23B8FFE80067F688 /* LengthOfLongestSubstring.hpp */,
+			);
+			path = "3.无重复字符的最长子串";
+			sourceTree = "<group>";
+		};
 		D2CAF81223B458EE00BFC04B = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +92,7 @@
 		D2CAF81D23B458EE00BFC04B /* LeetCodeSampleCode */ = {
 			isa = PBXGroup;
 			children = (
+				8E54408B23B8F5530067F688 /* 3.无重复字符的最长子串 */,
 				8E54408523B6F2160067F688 /* 2.两数相加 */,
 				D2CAF83323B459F900BFC04B /* 1.两数之和 */,
 				D2CAF81E23B458EE00BFC04B /* AppDelegate.swift */,
@@ -174,10 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2CAF82323B458EE00BFC04B /* ViewController.swift in Sources */,
+				8E54409023B8FFE80067F688 /* LengthOfLongestSubstring.cpp in Sources */,
 				D2CAF81F23B458EE00BFC04B /* AppDelegate.swift in Sources */,
 				8E54408423B643E90067F688 /* TwoSum.cpp in Sources */,
 				8E54408A23B749850067F688 /* AddTwoNumbers.cpp in Sources */,
 				8E54408723B6F2460067F688 /* AddTwoNumbers.swift in Sources */,
+				8E54408D23B8F58C0067F688 /* LengthOfLongestSubstring.swift in Sources */,
 				D2CAF83523B45A2800BFC04B /* TwoSum.swift in Sources */,
 				D2CAF82123B458EE00BFC04B /* SceneDelegate.swift in Sources */,
 			);
