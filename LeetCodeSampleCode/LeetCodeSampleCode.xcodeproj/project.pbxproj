@@ -21,6 +21,8 @@
 		D2CAF83523B45A2800BFC04B /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF83423B45A2800BFC04B /* TwoSum.swift */; };
 		D2CAF88023B9D2E300BFC04B /* FindMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF87F23B9D2E300BFC04B /* FindMedianSortedArrays.swift */; };
 		D2CAF88323B9D2FD00BFC04B /* FindMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF88123B9D2FD00BFC04B /* FindMedianSortedArrays.cpp */; };
+		D2CAF88A23BB2A9D00BFC04B /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF88923BB2A9D00BFC04B /* LongestPalindrome.swift */; };
+		D2CAF88D23BB2AC400BFC04B /* LongestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF88B23BB2AC400BFC04B /* LongestPalindrome.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		D2CAF87F23B9D2E300BFC04B /* FindMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianSortedArrays.swift; sourceTree = "<group>"; };
 		D2CAF88123B9D2FD00BFC04B /* FindMedianSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindMedianSortedArrays.cpp; sourceTree = "<group>"; };
 		D2CAF88223B9D2FD00BFC04B /* FindMedianSortedArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindMedianSortedArrays.hpp; sourceTree = "<group>"; };
+		D2CAF88923BB2A9D00BFC04B /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		D2CAF88B23BB2AC400BFC04B /* LongestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindrome.cpp; sourceTree = "<group>"; };
+		D2CAF88C23BB2AC400BFC04B /* LongestPalindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindrome.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 		D2CAF81D23B458EE00BFC04B /* LeetCodeSampleCode */ = {
 			isa = PBXGroup;
 			children = (
+				D2CAF88823BB2A5D00BFC04B /* 5.最长回文子串 */,
 				D2CAF87E23B9D2A400BFC04B /* 4.寻找两个有序数组的中位数 */,
 				8E54408B23B8F5530067F688 /* 3.无重复字符的最长子串 */,
 				8E54408523B6F2160067F688 /* 2.两数相加 */,
@@ -131,6 +137,16 @@
 				D2CAF88223B9D2FD00BFC04B /* FindMedianSortedArrays.hpp */,
 			);
 			path = "4.寻找两个有序数组的中位数";
+			sourceTree = "<group>";
+		};
+		D2CAF88823BB2A5D00BFC04B /* 5.最长回文子串 */ = {
+			isa = PBXGroup;
+			children = (
+				D2CAF88923BB2A9D00BFC04B /* LongestPalindrome.swift */,
+				D2CAF88B23BB2AC400BFC04B /* LongestPalindrome.cpp */,
+				D2CAF88C23BB2AC400BFC04B /* LongestPalindrome.hpp */,
+			);
+			path = "5.最长回文子串";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,10 +226,12 @@
 				8E54409023B8FFE80067F688 /* LengthOfLongestSubstring.cpp in Sources */,
 				D2CAF81F23B458EE00BFC04B /* AppDelegate.swift in Sources */,
 				8E54408423B643E90067F688 /* TwoSum.cpp in Sources */,
+				D2CAF88A23BB2A9D00BFC04B /* LongestPalindrome.swift in Sources */,
 				8E54408A23B749850067F688 /* AddTwoNumbers.cpp in Sources */,
 				D2CAF88323B9D2FD00BFC04B /* FindMedianSortedArrays.cpp in Sources */,
 				8E54408723B6F2460067F688 /* AddTwoNumbers.swift in Sources */,
 				8E54408D23B8F58C0067F688 /* LengthOfLongestSubstring.swift in Sources */,
+				D2CAF88D23BB2AC400BFC04B /* LongestPalindrome.cpp in Sources */,
 				D2CAF83523B45A2800BFC04B /* TwoSum.swift in Sources */,
 				D2CAF82123B458EE00BFC04B /* SceneDelegate.swift in Sources */,
 			);
