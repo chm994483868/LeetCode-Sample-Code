@@ -46,7 +46,7 @@ func longestPalindrome(_ s: String) -> String {
         temporaryString += character
     }
     
-    return temporaryString
+    return temporaryString // 测试失败
 }
 
 private func expandAroundCenter(_ s: String, _ left: Int, _ right: Int) -> Int {
