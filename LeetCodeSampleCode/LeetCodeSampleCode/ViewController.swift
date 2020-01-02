@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let string = "babad"
+        let resultString = longestPalindrome(string)
+        print("🍎🍎🍎 resultString 打印: \(resultString)")
     }
 
-
+    
 }
 

@@ -46,6 +46,8 @@ func longestPalindrome(_ s: String) -> String {
         temporaryString += character
     }
     
+    print("🍎🍎🍎 打印: start: \(start), end: \(end)")
+    
     return temporaryString
 }
 
