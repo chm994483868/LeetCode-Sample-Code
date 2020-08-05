@@ -40,7 +40,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     }
     
     return []
-}
+
 
 func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
     for index in 0..<nums.count {

@@ -19,7 +19,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         if (nums.size() <= 0) { return {}; }
-        
+
         int i, j;
         for (i = 0; i < nums.size() - 1; i++) {
             for (j = i + 1; j < nums.size(); j++) {
